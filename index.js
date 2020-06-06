@@ -66,7 +66,7 @@ function createRock(x) {
    * seems like a good pace.)
    */
   function moveRock() {
-      top = 20
+      
     }
 
 

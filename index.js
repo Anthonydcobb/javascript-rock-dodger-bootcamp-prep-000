@@ -60,8 +60,7 @@ function createRock(x) {
   var top = 0
 
   rock.style.top = top
-   GAME.appendChild(rock)
-   
+
   /**
    * This function moves the rock. (2 pixels at a time
    * seems like a good pace.)

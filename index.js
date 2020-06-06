@@ -66,8 +66,7 @@ function createRock(x) {
    * seems like a good pace.)
    */
   function moveRock() {
-    for (let i = 0; i < ROCKS.length; i++) {
-      ROCKS[i].style.top = 5
+      top = 20
     }
 
 

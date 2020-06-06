@@ -61,6 +61,7 @@ function createRock(x) {
 
   rock.style.top = top
    GAME.appendChild(rock)
+   moveRock()
 
   /**
    * This function moves the rock. (2 pixels at a time
@@ -70,13 +71,9 @@ function createRock(x) {
 
     }
 
-
-    // implement me!
-    // (use the comments below to guide you!)
-    /**
-     * If a rock collides with the DODGER,
-     * we should call endGame().
-     */
+    //  * If a rock collides with the DODGER,
+    //  * we should call endGame().
+    //  *
 
     /**
      * Otherwise, if the rock hasn't reached the bottom of

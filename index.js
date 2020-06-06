@@ -60,7 +60,7 @@ function createRock(x) {
 
   rock.style.top = top
    GAME.appendChild(rock)
-   
+
   /**
    * This function moves the rock. (2 pixels at a time
    * seems like a good pace.)
@@ -160,7 +160,7 @@ function start() {
   START.style.display = 'none'
   gameInterval = setInterval(function() {
     createRock(Math.floor(Math.random() *  (GAME_WIDTH - 20)))
-  }, 2000)
+  }, 1000)
 }
 
 document.querySelector('#start').addEventListener('click', function(e) {
